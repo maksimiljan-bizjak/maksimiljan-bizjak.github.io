@@ -1,0 +1,32 @@
+.zastava{
+  border-width: 17px;
+  border-color: #ffd800;
+  border-style: solid;
+  
+  width: 98%;
+  
+}
+
+#bela{
+  height: 290px;
+  width: 100%;
+  background-color: white;
+  
+}
+#modra{
+  height: 290px;
+  width: 100%;
+  background-color: blue;
+ 
+}
+#rdeca{
+  height: 290px;
+  width: 100%;
+  background-color: red;
+  
+}
+#zvezda{
+  display: block;
+  margin: auto;
+  padding-top: 120px;
+}
