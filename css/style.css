@@ -1,32 +1,78 @@
-.zastava{
-  border-width: 17px;
-  border-color: #ffd800;
-  border-style: solid;
-  
-  width: 98%;
-  
+body{
+  background-image: url(../images/vzorec.png);
+  font-family:cursive;
 }
 
-#bela{
-  height: 290px;
-  width: 100%;
-  background-color: blue;
+.glavni{
+  background-color: #A1C2BD;
+  width:60%;
+  height:600px;
+  margin:auto;
+  border-radius:26px;
+  border:2px solid #50615e;
+  padding: 6px;
+  display: flex;
+  align-items: center;   /* vertical center */
+  justify-content: center; /* horizontal center */
+  display: flex;
+  flex-direction: column; /* stack child divs top → bottom */
+  gap: 4px;
+}
+
+.slave{
+  background-color: #E7F2EF;
+  width:100%;
+  height:100%;
+  border-radius:20px;
+  border:2px solid #50615e;
+}
+.top{
+  background-color: #E7F2EF;
+  width:100%;
+  height:5%;
+  border-radius:20px;
+  border:2px solid #50615e;
   
-}
-#modra{
-  height: 290px;
-  width: 100%;
-  background-color: white;
- 
-}
-#rdeca{
-  height: 290px;
-  width: 100%;
-  background-color: red;
+  color:#0d0222;
+  line-height: 150%;
   
+  text-indent: 10px;
 }
-#zvezda{
-  display: block;
-  margin: auto;
-  padding-top: 120px;
+.gumbi{
+  width:100%;
+  height:5%;
+  margin-bottom: 3px;
+}
+.ena, .dva, .tri{
+   background-color: #708993;
+  width:30px;
+  height:100%;
+  border-radius:0px 0px 7px 7px;
+  border:2px solid #50615e;
+  float:right;
+  margin-left:6px;
+  margin-top: -10px;
+  color:#E7F2EF;
+  text-align: center;
+  line-height: 150%;
+}
+.ena{
+  width: 40px;
+  margin-right: 20px;
+  background-color: #19183B;
+}
+.ime{
+  background-color: #E7F2EF;
+  height:100%;
+  border-radius:20px;
+  border:2px solid #50615e;
+  float:left;
+  padding-left: 10px;
+  padding-right: 10px;
+  color:#0d0222;
+  text-align: center;
+  line-height: 150%;
+}
+#john{
+  margin:auto;
 }
